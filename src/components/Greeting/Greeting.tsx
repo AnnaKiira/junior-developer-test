@@ -1,4 +1,4 @@
-
+/* Tasks: Part 2 */
 type GreetingProps = {
     name?: string
 }
