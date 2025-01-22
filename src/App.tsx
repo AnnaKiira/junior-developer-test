@@ -1,3 +1,5 @@
+import Greeting from './components/Greeting/Greeting.tsx'
+
 function App() {
 
   function largestNum() {
@@ -18,6 +20,9 @@ function App() {
     <h1>Tasks Solutions</h1>
     <h2>Part 1:</h2>
     <p>Largest Number: {largestNum()}</p>
+
+    <h2>Part 2:</h2>
+    <Greeting name = "John" /> {/* if name = "John" is commented out (not provided), the browser renders Hello, Guest! as default  */}
   </div>
 }
 
